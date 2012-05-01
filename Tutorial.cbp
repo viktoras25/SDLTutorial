@@ -31,9 +31,13 @@
 			<Add directory="include\SDL" />
 		</Compiler>
 		<Linker>
-			<Add library="lib\libSDL.dll.a" />
+			<Add option="-lmingw32" />
+			<Add option="-static" />
 			<Add library="lib\libSDLmain.a" />
+			<Add library="lib\libSDL.dll.a" />
 		</Linker>
+		<Unit filename="include\App.h" />
+		<Unit filename="src\App.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />

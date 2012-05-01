@@ -2,11 +2,13 @@
 #define _APP_H_
 
 #include <SDL.h>
+#include "Sprite.h"
 
 class App {
     private:
-        bool    Running;
+        bool            Running;
         SDL_Surface*    Screen;
+        SDL_Surface*    Test;
 
     public:
         App();
