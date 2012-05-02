@@ -47,10 +47,8 @@ int main(int argc, char* argv[]) {
     return App.Execute();
 }
 
-void App::Event(SDL_Event* Event) {
-    if(Event->type == SDL_QUIT) {
-        Running = false;
-    }
+void App::Event(SDL_Event* Evt) {
+    Event::Handle(Evt);
 }
 
 void App::Loop() {}
@@ -66,4 +64,8 @@ void App::Cleanup() {
     SDL_FreeSurface(Test);
     SDL_FreeSurface(Screen);
     SDL_Quit();
+}
+
+void App::Exit() {
+    Running = false;
 }

@@ -2,9 +2,11 @@
 #define _APP_H_
 
 #include <SDL.h>
+
+#include "Event.h"
 #include "Sprite.h"
 
-class App {
+class App : public Event {
     private:
         bool            Running;
         SDL_Surface*    Screen;
@@ -14,12 +16,12 @@ class App {
         App();
         int Execute();
 
-    public:
         bool Init();
-        void Event(SDL_Event* Event);
+        void Event(SDL_Event* Evt);
         void Loop();
         void Render();
         void Cleanup();
+        void Exit();
 };
 
 #endif

@@ -2,9 +2,15 @@
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
 	<File name="include\App.h" open="1" top="0" tabpos="1">
-		<Cursor position="52" topLine="0" />
+		<Cursor position="416" topLine="0" />
+	</File>
+	<File name="include\Sprite.h" open="1" top="0" tabpos="3">
+		<Cursor position="363" topLine="0" />
 	</File>
 	<File name="src\App.cpp" open="1" top="1" tabpos="2">
-		<Cursor position="349" topLine="16" />
+		<Cursor position="898" topLine="44" />
+	</File>
+	<File name="src\Sprite.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="602" topLine="21" />
 	</File>
 </CodeBlocks_layout_file>

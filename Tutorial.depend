@@ -2,8 +2,9 @@
 1335888698 source:c:\users\charnad\documents\codeblocks projects\tutorial\src\app.cpp
 	"App.h"
 
-1335887878 c:\users\charnad\documents\codeblocks projects\tutorial\include\app.h
+1335988362 c:\users\charnad\documents\codeblocks projects\tutorial\include\app.h
 	<SDL.h>
+	"Event.h"
 	"Sprite.h"
 
 1325738639 c:\users\charnad\documents\codeblocks projects\tutorial\include\sdl\sdl.h
@@ -200,5 +201,11 @@
 	"Sprite.h"
 
 1335888515 c:\users\charnad\documents\codeblocks projects\tutorial\include\sprite.h
+	<SDL.h>
+
+1335988312 source:c:\users\charnad\documents\codeblocks projects\tutorial\src\event.cpp
+	"Event.h"
+
+1335988300 c:\users\charnad\documents\codeblocks projects\tutorial\include\event.h
 	<SDL.h>
 

@@ -37,7 +37,9 @@
 			<Add library="lib\libSDL.dll.a" />
 		</Linker>
 		<Unit filename="include\App.h" />
+		<Unit filename="include\Sprite.h" />
 		<Unit filename="src\App.cpp" />
+		<Unit filename="src\Sprite.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />
