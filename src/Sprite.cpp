@@ -52,3 +52,13 @@ bool Sprite::Draw(SDL_Surface* Dest, SDL_Surface* Src, int X, int Y, int X2, int
 
     return true;
 }
+
+bool Sprite::Transparent(SDL_Surface* Surface, int R, int G, int B) {
+    if(Surface == NULL) {
+        return false;
+    }
+
+    SDL_SetColorKey(Surface, SDL_SRCCOLORKEY | SDL_RLEACCEL, SDL_MapRGB(Surface->format, R, G, B));
+
+    return true;
+}
