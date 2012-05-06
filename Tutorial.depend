@@ -1,11 +1,12 @@
 # depslib dependency file v1.0
-1336171755 source:c:\users\charnad\documents\codeblocks projects\tutorial\src\app.cpp
+1336241898 source:c:\users\charnad\documents\codeblocks projects\tutorial\src\app.cpp
 	"App.h"
 
-1336171678 c:\users\charnad\documents\codeblocks projects\tutorial\include\app.h
+1336242169 c:\users\charnad\documents\codeblocks projects\tutorial\include\app.h
 	<SDL.h>
 	"Event.h"
 	"Sprite.h"
+	"Animation.h"
 
 1325738639 c:\users\charnad\documents\codeblocks projects\tutorial\include\sdl\sdl.h
 	"SDL_main.h"
@@ -197,10 +198,10 @@
 	"begin_code.h"
 	"close_code.h"
 
-1336171908 source:c:\users\charnad\documents\codeblocks projects\tutorial\src\sprite.cpp
+1336241951 source:c:\users\charnad\documents\codeblocks projects\tutorial\src\sprite.cpp
 	"Sprite.h"
 
-1336171896 c:\users\charnad\documents\codeblocks projects\tutorial\include\sprite.h
+1336241951 c:\users\charnad\documents\codeblocks projects\tutorial\include\sprite.h
 	<SDL.h>
 
 1335991477 source:c:\users\charnad\documents\codeblocks projects\tutorial\src\event.cpp
@@ -208,4 +209,10 @@
 
 1335991477 c:\users\charnad\documents\codeblocks projects\tutorial\include\event.h
 	<SDL.h>
+
+1336242266 c:\users\charnad\documents\codeblocks projects\tutorial\include\animation.h
+	<SDL.h>
+
+1336242201 source:c:\users\charnad\documents\codeblocks projects\tutorial\src\animation.cpp
+	"Animation.h"
 

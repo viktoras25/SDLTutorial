@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
-	<File name="include\App.h" open="0" top="0" tabpos="1">
-		<Cursor position="416" topLine="0" />
+	<File name="include\Animation.h" open="0" top="0" tabpos="1">
+		<Cursor position="485" topLine="2" />
+	</File>
+	<File name="include\App.h" open="0" top="0" tabpos="3">
+		<Cursor position="299" topLine="0" />
 	</File>
 	<File name="include\Sprite.h" open="0" top="0" tabpos="3">
-		<Cursor position="363" topLine="0" />
+		<Cursor position="440" topLine="0" />
 	</File>
-	<File name="src\App.cpp" open="0" top="0" tabpos="2">
-		<Cursor position="898" topLine="44" />
+	<File name="src\Animation.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src\App.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="1011" topLine="50" />
 	</File>
 	<File name="src\Sprite.cpp" open="0" top="0" tabpos="4">
-		<Cursor position="602" topLine="21" />
+		<Cursor position="1285" topLine="38" />
 	</File>
 </CodeBlocks_layout_file>

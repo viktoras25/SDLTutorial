@@ -5,24 +5,15 @@
 
 #include "Event.h"
 #include "Sprite.h"
-
-enum {
-    GRID_TYPE_NONE = 0,
-    GRID_TYPE_X,
-    GRID_TYPE_O
-};
+#include "Animation.h"
 
 class App : public Event {
     private:
         bool            Running;
         SDL_Surface*    Screen;
+        SDL_Surface*    Test;
 
-        SDL_Surface*    G;
-        SDL_Surface*    X;
-        SDL_Surface*    O;
-
-        int             Grid[9];
-        int CurrentPlayer;
+        Animation      Anim_Yoshi;
 
     public:
         App();
@@ -34,11 +25,6 @@ class App : public Event {
         void Render();
         void Cleanup();
         void Exit();
-
-    public:
-        void Reset();
-        void SetCell(int ID, int Type);
-        void OnLButtonDown(int mX, int mY);
 };
 
 #endif

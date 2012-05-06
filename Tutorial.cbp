@@ -36,9 +36,13 @@
 			<Add library="lib\libSDLmain.a" />
 			<Add library="lib\libSDL.dll.a" />
 		</Linker>
+		<Unit filename="include\Animation.h" />
 		<Unit filename="include\App.h" />
+		<Unit filename="include\Event.h" />
 		<Unit filename="include\Sprite.h" />
+		<Unit filename="src\Animation.cpp" />
 		<Unit filename="src\App.cpp" />
+		<Unit filename="src\Event.cpp" />
 		<Unit filename="src\Sprite.cpp" />
 		<Extensions>
 			<code_completion />
