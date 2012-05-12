@@ -19,8 +19,20 @@ bool App::Init() {
         return false;
     }
 
+    if(Entity1.Load("./gfx/yoshi.bmp", 64, 64, 8) == false) {
+        return false;
+    }
+
+    if(Entity2.Load("./gfx/yoshi.bmp", 64, 64, 8) == false) {
+        return false;
+    }
+
+    Entity2.X = 100;
+
+    Entity::EntityList.push_back(&Entity1);
+    Entity::EntityList.push_back(&Entity2);
+
     Sprite::Transparent(Test, 255, 0, 255);
-    Anim_Yoshi.MaxFrames = 8;
 
     return true;
 }
@@ -55,17 +67,34 @@ void App::Event(SDL_Event* Evt) {
 }
 
 void App::Loop() {
-    Anim_Yoshi.Animate();
+    for(int i = 0;i < Entity::EntityList.size();i++) {
+        if(!Entity::EntityList[i]) continue;
+
+        Entity::EntityList[i]->Loop();
+    }
 }
 
 void App::Render() {
     SDL_FillRect(Screen, NULL, 0x000000);
-    Sprite::Draw(Screen, Test, 290, 220, 0, Anim_Yoshi.GetCurrentFrame() * 64, 64, 64);
+
+    for(int i = 0;i < Entity::EntityList.size();i++) {
+        if(!Entity::EntityList[i]) continue;
+
+        Entity::EntityList[i]->Render(Screen);
+    }
 
     SDL_Flip(Screen);
 }
 
 void App::Cleanup() {
+    for(int i = 0;i < Entity::EntityList.size();i++) {
+        if(!Entity::EntityList[i]) continue;
+
+        Entity::EntityList[i]->Cleanup();
+    }
+
+    Entity::EntityList.clear();
+
     SDL_FreeSurface(Test);
     SDL_FreeSurface(Screen);
     SDL_Quit();

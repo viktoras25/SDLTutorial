@@ -5,7 +5,10 @@
 		<Cursor position="485" topLine="2" />
 	</File>
 	<File name="include\App.h" open="0" top="0" tabpos="3">
-		<Cursor position="299" topLine="0" />
+		<Cursor position="284" topLine="0" />
+	</File>
+	<File name="include\Entity.h" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="5" />
 	</File>
 	<File name="include\Sprite.h" open="0" top="0" tabpos="3">
 		<Cursor position="440" topLine="0" />
@@ -14,7 +17,7 @@
 		<Cursor position="0" topLine="0" />
 	</File>
 	<File name="src\App.cpp" open="0" top="0" tabpos="4">
-		<Cursor position="1011" topLine="50" />
+		<Cursor position="1453" topLine="66" />
 	</File>
 	<File name="src\Sprite.cpp" open="0" top="0" tabpos="4">
 		<Cursor position="1285" topLine="38" />

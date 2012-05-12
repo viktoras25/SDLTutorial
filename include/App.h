@@ -6,6 +6,7 @@
 #include "Event.h"
 #include "Sprite.h"
 #include "Animation.h"
+#include "Entity.h"
 
 class App : public Event {
     private:
@@ -13,7 +14,8 @@ class App : public Event {
         SDL_Surface*    Screen;
         SDL_Surface*    Test;
 
-        Animation      Anim_Yoshi;
+        Entity         Entity1;
+        Entity         Entity2;
 
     public:
         App();

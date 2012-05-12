@@ -1,12 +1,13 @@
 # depslib dependency file v1.0
-1336241898 source:c:\users\charnad\documents\codeblocks projects\tutorial\src\app.cpp
+1336823410 source:c:\users\charnad\documents\codeblocks projects\tutorial\src\app.cpp
 	"App.h"
 
-1336242169 c:\users\charnad\documents\codeblocks projects\tutorial\include\app.h
+1336823396 c:\users\charnad\documents\codeblocks projects\tutorial\include\app.h
 	<SDL.h>
 	"Event.h"
 	"Sprite.h"
 	"Animation.h"
+	"Entity.h"
 
 1325738639 c:\users\charnad\documents\codeblocks projects\tutorial\include\sdl\sdl.h
 	"SDL_main.h"
@@ -215,4 +216,12 @@
 
 1336242201 source:c:\users\charnad\documents\codeblocks projects\tutorial\src\animation.cpp
 	"Animation.h"
+
+1336822675 source:c:\users\charnad\documents\codeblocks projects\tutorial\src\entity.cpp
+	"Entity.h"
+
+1336822662 c:\users\charnad\documents\codeblocks projects\tutorial\include\entity.h
+	<vector>
+	"Animation.h"
+	"Sprite.h"
 
